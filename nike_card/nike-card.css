@@ -1,0 +1,40 @@
+.root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#shoe-container {
+    max-width: 320px;
+    max-height: 320px;
+    background-color: rgba(255, 0, 0, 0.557);
+    border: 2px solid rgba(0, 0, 0, 0.285);
+}
+
+#shoe-container img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#shoe-container p{
+    text-align: center;
+}
+
+#shoe-container button {
+    background-color: rgba(255, 0, 0, 0.669); /* Green */
+  border: 1px solid red;
+  border-radius: 30px;
+  color: white;
+  margin: 5px 60px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+

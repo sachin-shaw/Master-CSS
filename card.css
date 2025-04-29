@@ -1,0 +1,22 @@
+.card {
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    background: #fff;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-content {
+    padding: 16px;
+    text-align: center;
+  }
+  

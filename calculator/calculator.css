@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 220px;
+    height: 220px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 5px solid black;
+}
+#user_input {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
